@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Jul 20 13:21:58 2018
+# Process ID: 1524
+# Current directory: C:/Users/Blean/extends
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11284 C:\Users\Blean\extends\Lab_6.xpr
+# Log file: C:/Users/Blean/extends/vivado.log
+# Journal file: C:/Users/Blean/extends\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Blean/extends/Lab_6.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/Blean/extends/Top_behav.wcfg
+source Top.tcl
+relaunch_sim
+close_sim
